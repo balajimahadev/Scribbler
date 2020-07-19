@@ -13,7 +13,7 @@ function onEdit() {
                 document.getElementById('edit-contenttext').style.borderStyle = 'solid';
                 document.getElementById('edit-contenttext').style.borderColor = 'red';
 
-                document.getElementById('editButton').innerHTML =
+                document.getElementById('edit-button').innerHTML =
                         'Save<i class="fa fa-save" style="padding-left: 4px;"></i></button>';
                 editMode = true;
         } else {
@@ -28,9 +28,9 @@ function onEdit() {
                 document.getElementById('edit-contenttext').style.border = 'none';
                 document.getElementById('edit-heading').style.border = 'none';
 
-                document.getElementById('editButton').innerHTML =
+                document.getElementById('edit-button').innerHTML =
                         'Edit<i class="fa fa-edit" style="padding-left: 4px;"></i>';
-                document.getElementById('editButton').disabled = true;
+                document.getElementById('edit-button').disabled = true;
         }
 }
 
